@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gris_claro">#f1f2f2</color>
+    <color name="azul_prefiero">#0d1b22</color>
+    <color name="amarillo_prefiero">#fab520</color>
+    <color name="verde_success">#2ecc71</color>
+    <color name="rojo_warning">#d91e18</color>
+    <color name="negro_prefiero">#333333</color>
+
+    <drawable name="transparent">#00ffffff</drawable>
+    <drawable name="altercolor1">#ffffffff</drawable>
+    <drawable name="altercolor2">#fff1f2f2</drawable>
+
+    <color name="default_edgeeffect_color">#FF33B5E5</color>
+</resources>

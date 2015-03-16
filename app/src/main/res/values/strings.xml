@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mensaje_inicio_cargando">Espera un momento por favor…</string>
+    <string name="login_msg_iniciando">Iniciar sesión…</string>
+    <string name="login_msg_nuevo_usuario">Creando nuevo usuario…</string>
+    <string name="login_msg_validando">Validando sesión…</string>
+    <string name="login_msg_cargando">Cargando…</string>
+    <string name="app_name">Yo Prefiero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_explicacion">El registro es automático</string>
+    <string name="login_txt_email">Ingresa tu E-mail</string>
+    <string name="login_txt_pw">Tu contraseña</string>
+    <string name="login_btn_ingresar">Ingresa</string>
+    <string name="login_txt_timeout">El servicio no se encuentra disponible</string>
+    <string name="login_btn_timeout">Reintentar</string>
+    <string name="login_cambio_imagen">Fotografía cambiada exitosamente</string>
+    <string name="msg_login_empty_values">Ingresa los datos solicitados</string>
+    <string name="msg_login_error_401">Usuario y/o contraseña mal escritas</string>
+    <string name="msg_login_error_500">Error al procesar</string>
+    <string name="login_msg_popup_desde_login">Iniciando sesión…</string>
+    <string name="login_msg_popup_desde_registro">Cargando…</string>
+    <string name="login_msg_error_servidor">Error en la respuesta del servidor</string>
+    <string name="login_msg_popup_new_user">Creando nuevo usuario…</string>
+    <string name="login_msg_popup_valida">Validando sesión…</string>
+    <string name="msg_cargando_api">Cargando datos…</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="menu_home_perfil">Perfil</string>
+    <string name="menu_home_categoria">Categorías:</string>
+    <string name="menu_home_agregar_categoria">Agregar categoría</string>
+    <string name="menu_home_salir">Salir</string>
+    <string name="drawer_open_menu">Abrir Menu</string>
+    <string name="drawer_close_menu">Cerrar Menu</string>
+    <string name="perfil_titulo_datos">Datos Personales:</string>
+    <string name="perfil_titulo_categorias">Categorias:</string>
+    <string name="perfil_boton_editar">Editar Perfil</string>
+    <string name="perfil_boton_fin_edicion">Finalizar edición</string>
+    <string name="perfil_txt_nombre">Nombre Usuario Registrado</string>
+    <string name="perfil_txt_region">Región de residencia</string>
+    <string name="perfil_txt_telefono">Teléfono de usuario</string>
+    <string name="perfil_hint_nombre">Nombre de usuario</string>
+    <string name="perfil_hint_apellido">Apellido de usuario</string>
+    <string name="perfil_hint_telefono">Teléfono de usuario</string>
+    <string name="perfil_guardado_ok">Perfil guardado con exito</string>
+    <string name="msg_ok_add_categoria">Categoría agregada exitosamente</string>
+    <string name="msg_ok_del_categoria">Categoría eliminada exitosamente</string>
+    <string name="msg_titulo_slide_contenido">Título contenido</string>
+    <string name="msg_sin_contenidos">Aún no tenemos nada en ésta categoría</string>
+    <string name="msg_boton_comprar">Comprar ahora</string>
+    <string name="msg_titulo_descripcion">Descripción</string>
+    <string name="msg_titulo_null">Oh!\nEsto es incómodo</string>
+    <string name="msg_descripcion_null">Pronto tendremos más contenido</string>
+    <string name="msg_boton_null">Volver al inicio</string>
+
+    <string-array name="regiones_chile">
+        <item>Seleccione región</item>
+        <item>Región de Tarapacá</item>
+        <item>Región de Antofagasta</item>
+        <item>Región de Atacama</item>
+        <item>Región de Coquimbo</item>
+        <item>Región de Valparaíso</item>
+        <item>Región Del Libertador General Bernardo O\'Higgins</item>
+        <item>Región del Maule</item>
+        <item>Región del Bío-Bío</item>
+        <item>Región de la Araucanía</item>
+        <item>Región de Los Lagos</item>
+        <item>Región de Aysen del Gral</item>
+        <item>Región de Magallanes y de la Antártica Chilena</item>
+        <item>Región Metropolitana de Santiago</item>
+        <item>Región de Los Rios</item>
+        <item>Región de Arica y Parinacota</item>
+    </string-array>
+
+    <string name="crop_discard_text">Cancelar</string>
+    <string name="crop_save_text">Subir foto</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="msg"></string>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

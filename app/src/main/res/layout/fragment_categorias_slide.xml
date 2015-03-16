@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txt_titulo_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/msg_titulo_slide_contenido"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/scrollView" >
+
+    <!--<com.permify.yoprefiero.EdgeEffectViews.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/scrollView"
+        app:edgeeffect_color="@color/amarillo_prefiero">-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+
+            <!--<com.android.volley.toolbox.NetworkImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/imagen_contenido"
+                android:background="#64ffffff"
+                android:layout_gravity="center_horizontal"
+                android:padding="1dp" />-->
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:id="@+id/imagen_contenido"
+                android:background="#64ffffff"
+                android:layout_gravity="center_horizontal"
+                android:padding="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="Titulo"
+                android:id="@+id/txt_titulo_contenido"
+                android:textColor="@color/negro_prefiero"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Precio"
+                android:textColor="@color/negro_prefiero"
+                android:id="@+id/txt_precio_contenido"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:layout_height="wrap_content"
+                android:text="@string/msg_boton_comprar"
+                android:id="@+id/btn_accion"
+                android:textColor="#ffffff"
+                android:background="@color/amarillo_prefiero"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/negro_prefiero"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/msg_titulo_descripcion" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informacion"
+                    android:id="@+id/txt_descripcion_contenido"
+                    android:lineSpacingExtra="5sp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <!--</com.permify.yoprefiero.EdgeEffectViews.ScrollView>-->
+</LinearLayout>
